@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "alpholks-training"
+  },
+  "targets": {
+    "alpholks-training": {
+      "hosting": {
+        "alpholks": [
+          "alpholks-training"
+        ],
+        "alpholks-web": [
+          "alpholks"
+        ]
+      }
+    }
+  }
+}
