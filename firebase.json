@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "predeploy": [],
+    "source": "functions"
+  },
+  "hosting": {
+    "target": "alpholks-web",
+    "public": "frontend",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
